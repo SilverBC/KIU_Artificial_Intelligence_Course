@@ -18,7 +18,7 @@
 
 | Inference Rule                | Mathematical Expression | Description |
 |-------------------------------|-------------------------|-------------|
-| Modus Ponens                  | ($) \begin{array}{c} \alpha \rightarrow \beta \\ \alpha \\ \hline \beta \end{array} ($) | If "A implies B" is true and A is true, then B must also be true. |
+| Modus Ponens                  | $`  \begin{array}{c} \alpha \rightarrow \beta \\ \alpha \\ \hline \beta \end{array} `$ | If "A implies B" is true and A is true, then B must also be true. |
 | And Elimination               | $$\begin{array}{c} \alpha \land \beta \\ \hline \alpha \end{array}$$ | If an 'And' proposition is true, any one element of it is true. |
 | Double Negation Elimination   | $$\begin{array}{c} \neg(\neg\alpha) \\ \hline \alpha \end{array}$$ | A double negation cancels out, making the statement true. |
 | Implication Elimination       | $$\begin{array}{c} \alpha \rightarrow \beta \\ \hline \neg \alpha \lor \beta \end{array}$$ | An implication can be rephrased as 'not A or B'. |
