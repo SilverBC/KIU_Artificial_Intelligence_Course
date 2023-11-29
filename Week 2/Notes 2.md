@@ -48,3 +48,46 @@ $$
     | Marginalization               | $P(a) = P(a, b) + P(a, \neg b)$             | When considering $a$ and $b$ as disjoint probabilities, $P(a)$ can be obtained by adding $P(a, b)$ and $P(a, \neg b)$. |
     | Conditioning                  | $` P(a) = P(a \mid b)P(b) + P(a \mid \neg b)P(\neg b) `$ | The probability of $a$ occurring is computed as the sum of conditional probabilities given $b$ and $\neg b$. |
 
+5) Bayesian Networks
+
+    Bayesian network is a data structure that represents the dependencies among random variables
+    * directed graphs
+    * Each node on the graph represents a random variable.
+    * An arrow from X to Y represents that X is a parent of Y. That is, the probability distribution of Y depends on the value of X.
+    * Each node X has probability distribution $ P(X | Parents(X)) $
+
+        ![Bayesian Graph](/KIU_Artificial_Intelligence_Course/Week%202/images/bayesiannetwork.png)
+
+6) Inference 
+    * Query X: variable for which we want P distribution
+    * Evidence var E: variables for event e, that have already been observed
+    * Hidden var: variables that we can't observe
+    * The goal: calculate P(X|e)
+    
+    Inference by Enumeration: 
+    $$
+    P(X | e) = \alpha P(X, e) = \alpha \sum_{y} P(X, e, y)
+    $$
+    note: this is extremely inefficient as number of variables grows. suppose we have 30 variables with 2 states, we will need $2^{30}$ multiplications to arrive at the exact probability.
+
+7) Sampling 
+
+    Generates n Number of samples based on individual P distributions, discards samples that don't match the evidence.
+    then calculating how many times our desired outcome happened out of all the generated outcomes.  
+
+    note: can be made more efficient by fixing evidence variables. 
+
+8) Markov Models 
+    
+    All markov models are built on markov assumption, that current state depends on finite amount of previous states. 
+
+    There is also Sensor Markov Assumption, which says that hidden state is based only on observable things.
+
+    given observation from start to end, it's useful for: 
+    * Filtering: Generate P of it raining today
+    * Prediction: P of it raining for a future state
+    * Smoothing: P of previous events
+    * Most likely explanation: most likely sequence of events
+
+
+
