@@ -4,6 +4,7 @@
     * Propositional Logic 
     * Knowledge Base
     * Model 
+    * Inference
     * Clause
     * Disjunction/Conjuction 
     * Universal/Existential Quantification
