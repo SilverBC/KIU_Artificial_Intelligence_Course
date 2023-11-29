@@ -56,7 +56,7 @@ $$
     * An arrow from X to Y represents that X is a parent of Y. That is, the probability distribution of Y depends on the value of X.
     * Each node X has probability distribution $ P(X | Parents(X)) $
 
-        <img src="./images/bayesiannetwork.png" width="200" />
+<img src="./images/bayesiannetwork.png" width="200" />
 
 
 6) Inference 
