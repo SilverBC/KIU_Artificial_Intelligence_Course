@@ -8,11 +8,31 @@
     * Conditional probaility: % chance given some evidence b
 
         $$ P(a \mid b) = \frac{P(a \cap b)}{P(b)} $$
+    * Independence: a,b are independent if 
+        $$ P(a \cap b) = P(a)P(b) $$
 
+2) Bayes Rule 
+<br> Given $ P(a \mid b) $ we can calculate $ P(b \mid a) $
 
-$$\begin{array}{c}
-\alpha \rightarrow \beta \\
-\alpha \\
-\hline
-\beta
-\end{array} $$
+$$
+P(b \mid a) = \frac{P(b) P(a \mid b)}{P(a)}
+$$
+
+3) Join probability 
+
+    | R = rain | ~R = ~rain|    
+    |----------|-----------| 
+    | 0.1      | 0.9       |
+
+                    +
+
+    | C = cloud | ~C = ~cloud |    
+    |----------|-----------| 
+    | 0.1      | 0.9       |
+    
+                    =
+    | C \ R   | R  | ~R |
+    |---------|----------|-----------|
+    | C   | 0.08     | 0.32      |
+    | ~C   | 0.02     | 0.58      |
+
