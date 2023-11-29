@@ -46,5 +46,5 @@ $$
     | Negation                      | $P(\neg a) = 1 - P(a)$                     | $P(\neg a)$ is calculated as $1 - P(a)$, considering all possible worlds add up to $1$. |
     | Inclusion-Exclusion           | $P(a \lor b) = P(a) + P(b) - P(a \land b)$  | Probabilities of $(a \lor b)$ is calculated by summing $P(a)$ and $P(b)$ and subtracting the overlap $P(a \land b)$. This avoids double-counting the cases where both $a$ and $b$ are true. |
     | Marginalization               | $P(a) = P(a, b) + P(a, \neg b)$             | When considering $a$ and $b$ as disjoint probabilities, $P(a)$ can be obtained by adding $P(a, b)$ and $P(a, \neg b)$. |
-    | Conditioning                  | $ P(a) = P(a \mid b)P(b) + P(a \mid \neg b)P(\neg b) $ | The probability of $a$ occurring is computed as the sum of conditional probabilities given $b$ and $\neg b$. |
+    | Conditioning                  | $` P(a) = P(a \mid b)P(b) + P(a \mid \neg b)P(\neg b) `$ | The probability of $a$ occurring is computed as the sum of conditional probabilities given $b$ and $\neg b$. |
 
