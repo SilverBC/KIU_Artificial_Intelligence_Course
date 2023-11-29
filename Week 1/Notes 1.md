@@ -27,7 +27,7 @@
 | Distributive Property     | $$ \begin{array}{c} \alpha \land (\beta \lor \gamma) \\ \hline (\alpha \land \beta) \lor (\alpha \land \gamma) \end{array} $$ | 'And' distributes over 'Or'. |
 |                           | $$ \begin{array}{c} \alpha \lor (\beta \land \gamma) \\ \hline (\alpha \lor \beta) \land (\alpha \lor \gamma) \end{array} $$ | 'Or' distributes over 'And'. |
 | Resolution     | `$$ \begin{array}{c} P \lor Q \\ \neg P \\ \hline Q \end{array} $$` | If one of two propositions in an Or proposition is false, the other must be true. |
-|                | $$ \begin{array}{c} P \lor Q \\ \neg P \lor R \\ \hline Q \lor R \end{array} $$ | Resolution can be applied to deduce a new Or proposition when one part of the initial Or proposition is negated. | 
+|                | $ \begin{array}{c} P \lor Q \\ \neg P \lor R \\ \hline Q \lor R \end{array} $ | Resolution can be applied to deduce a new Or proposition when one part of the initial Or proposition is negated. | 
 
 
 5) The Final idea is to transform the KnowledgeBase into it's CNF (Conjuctive Normal Form) for easier inferences. 
