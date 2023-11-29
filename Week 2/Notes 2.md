@@ -8,3 +8,11 @@
     * Conditional probaility: % chance given some evidence b
 
         $$ P(a \mid b) = \frac{P(a \cap b)}{P(b)} $$
+
+
+$$\begin{array}{c}
+\alpha \rightarrow \beta \\
+\alpha \\
+\hline
+\beta
+\end{array} $$
