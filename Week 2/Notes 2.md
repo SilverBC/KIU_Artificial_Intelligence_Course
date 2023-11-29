@@ -23,14 +23,11 @@ $$
     | R = rain | ~R = ~rain|    
     |----------|-----------| 
     | 0.1      | 0.9       |
-
-                    +
-
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
     | C = cloud | ~C = ~cloud |    
     |----------|-----------| 
     | 0.1      | 0.9       |
-    
-                    =
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
     | C \ R   | R  | ~R |
     |---------|----------|-----------|
     | C   | 0.08     | 0.32      |
