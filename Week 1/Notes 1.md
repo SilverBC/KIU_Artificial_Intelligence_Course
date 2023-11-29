@@ -26,8 +26,9 @@
 |                           | $$ \begin{array}{c} \neg(\alpha \lor \beta) \\ \hline \neg \alpha \land \neg \beta \end{array} $$ | The negation of 'Or' is 'And' with negated components. |
 | Distributive Property     | $$ \begin{array}{c} \alpha \land (\beta \lor \gamma) \\ \hline (\alpha \land \beta) \lor (\alpha \land \gamma) \end{array} $$ | 'And' distributes over 'Or'. |
 |                           | $$ \begin{array}{c} \alpha \lor (\beta \land \gamma) \\ \hline (\alpha \lor \beta) \land (\alpha \lor \gamma) \end{array} $$ | 'Or' distributes over 'And'. |
-| Resolution     | \( P \lor Q, \neg P \vdash Q \) | If one of two propositions in an Or proposition is false, the other must be true. |
-|                | \( P \lor Q, \neg P \lor R \vdash Q \lor R \) | Resolution can be applied to deduce a new Or proposition when one part of the initial Or proposition is negated. |
+| Resolution     | $$ P \lor Q \\ \neg P \\ \hline Q $$ | If one of two propositions in an Or proposition is false, the other must be true. |
+|                | $$ P \lor Q \\ \neg P \lor R \\ \hline Q \lor R $$ | Resolution can be applied to deduce a new Or proposition when one part of the initial Or proposition is negated. |
+
 
 5) The Final idea is to transform the KnowledgeBase into it's CNF (Conjuctive Normal Form) for easier inferences. 
 <br>&nbsp;&nbsp;&nbsp;&nbsp; In order to check if Knowledgebase Entails some 'A' we need to see if it is produces an empty clause. if empty clause occurs with KB ⊨ ~A
