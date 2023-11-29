@@ -56,7 +56,7 @@ $$
     * An arrow from X to Y represents that X is a parent of Y. That is, the probability distribution of Y depends on the value of X.
     * Each node X has probability distribution $ P(X | Parents(X)) $
 
-        ![Bayesian Graph](/KIU_Artificial_Intelligence_Course/Week%202/images/bayesiannetwork.png)
+        ![Bayesian Graph](./Week%202/images/bayesiannetwork.png)
 
 6) Inference 
     * Query X: variable for which we want P distribution
