@@ -32,6 +32,7 @@
 
 5) The Final idea is to transform the KnowledgeBase into it's CNF (Conjuctive Normal Form) for easier inferences. 
 <br>&nbsp;&nbsp;&nbsp;&nbsp; In order to check if Knowledgebase Entails some 'A' we need to see if it is produces an empty clause. if empty clause occurs with KB ⊨ ~A
+    * $$ \begin{array}{c} P \lor Q \\ \neg P \lor R \\ \hline Q \lor R \end{array} $$
 
 6) First Order Logic
 <br> Uses 2 types of symbols for succint knowledge expression as opposed to Propositional Logic which may get too verbose. 
