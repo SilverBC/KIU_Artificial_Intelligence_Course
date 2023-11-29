@@ -77,18 +77,18 @@ some definitions:
     Constraint types: 
     * Hard Constraint: MUST be satisfied
     * Soft Constraint: Preferred solution
-    * Unary Constraint: only 1 variable, ex, {$ A ≠ Red $}
-    * Binary Constraint: 2 Variables, ex, {$ A ≠ B $}
+    * Unary Constraint: Involves a single variable, e.g., ex, {$ A ≠ Red $}
+    * Binary Constraint: Involves a pair of variables, e.g., {$ A ≠ B $}
 
-    <br>Node Consistency: All Unary Constraints are satisfied
-    <br>Arc Consistency: Satisfying binary constraints
+    <br>Node Consistency: A state where all unary constraints are satisfied for every variable.
+    <br>Arc Consistency: A state where all binary constraints are satisfied for every variable.
     
     example, arc consistency of X towards Y:
     * remove elements from the domain of X until all choices for X allow for choice in Y 
 
     BackTracking Search: 
-    <br>continously applies Node/Arc consistency, 
-    * if before completion, constraints need to be violated for completion, it goes up a level and tries different routes until it reaches "completion"
+    
+    <br>This algorithm applies node and arc consistency iteratively. If a variable assignment violates a constraint, the algorithm backtracks to a previous assignment and tries a different path. It continues until a solution is found or all options are exhausted. 
 
     Additionally, for efficiency there are multiple heuristics: 
 
