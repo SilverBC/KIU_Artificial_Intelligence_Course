@@ -46,7 +46,7 @@ when action taken:
 * Estimates $` Q(s, a) `$ based on current and expected rewards 
 * Updated $` Q(s, a) `$ taking in account both old and new estimations
 <br> $` Q(s,a) = Q(s,a) + α(new value estimate - Q(s,a)) `$ 
-or
+<br>or
 <br> $` Q(s,a) = Q(s,a) + α((r - γmax_αQ(s',a')) - Q(s,a)) `$ 
 where α = weight of new esimate
       γ = weight of new reward estimate
