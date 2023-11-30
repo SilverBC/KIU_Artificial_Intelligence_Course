@@ -4,3 +4,17 @@
 <img src="./images/image-1.png" />
 </div>
 
+As shown in the diagram above, we will be discussing 3 points about Neural Networks. Structural Aspects, Training and Optimization, Practical Implementation and Considerations. 
+
+Neural Network: Mathematical Model that learns a function for mapping Inputs and Outputs
+
+### 1) Structural Aspects
+* Activation Functions 
+
+| Function | Mathematical Expression | Advantages    | Disadvantages       |
+|----------|-------------------------|---------------|---------------------|
+| Step     | $`f(x) = \begin{cases} 1 & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Simple | Not Differentiable  |
+| Sigmoid  | $`f(x) = \frac{1}{1 + e^{-x}}`$ | Differentiable | Vanishing Gradient |
+| ReLu     | $`f(x) = \begin{cases} x & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Faster | Dying ReLu |
+
+
