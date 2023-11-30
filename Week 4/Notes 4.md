@@ -19,7 +19,7 @@ Additionally, we may use Support Vector Machines (SVM)-s, to bring in additional
     <br>The perceptron hypothesis 
     In this implementation, both hard and soft thresholds may be used, hard thresholds tells us Yes/No while soft thresholds additionally tell us confidence %. we will go deeper on activation functions in the next lecture. 
     
-    <br>function, denoted as **h(x)**, is a simple binary classifier that can be used for linear classification tasks. It takes an input vector **x** and produces an output of 1 or 0 based on a threshold:
+    <br>Threshold function, denoted as **h(x)**, in case of hard thresholds can be a simple binary classifier used for linear classification tasks. It takes an input vector **x** and produces an output of 1 or 0 based on a threshold:
 
 $$
 h(x) = \begin{cases} 
@@ -28,7 +28,7 @@ h(x) = \begin{cases}
 \end{cases}
 $$
 
-with each new data, the weights get adjusted accordingly: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where with each new data, the weights get adjusted accordingly: 
 
 $$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 
