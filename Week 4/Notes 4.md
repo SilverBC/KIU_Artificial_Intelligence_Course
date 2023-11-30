@@ -43,7 +43,7 @@ $$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 ### 3) Reinforcement Learning 
 Uses markov decision process to map out some $ actions(s) $ in a statespace based on final rewards. The ultimate goal being finding a strategy for choosing actions that maximize reward. One of the ways this can be achieved is through Q learning algorithm.
 when action taken: 
-* Estimates $ Q(s, a) $ based on current and expected rewards 
+* Estimates $` Q(s, a) `$ based on current and expected rewards 
 * Updated $ Q(s, a) $ taking in account both old and new estimations
 <br> $ Q(s,a) = Q(s,a) + α(new value estimate - Q(s,a)) $ 
 or
