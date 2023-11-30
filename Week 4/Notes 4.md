@@ -29,7 +29,8 @@ h(x) = \begin{cases}
 $$
 
 with each new data, the weights get adjusted accordingly: 
-<br>$$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
+
+$$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 
 
 * Regression 
