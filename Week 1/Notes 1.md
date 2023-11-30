@@ -1,20 +1,20 @@
 ## This week covers Knowledge Based Inferences and Machine Logic 
-1) Terminology in Knowledge problems, 
-    * Sentence
-    * Propositional Logic 
-    * Knowledge Base
-    * Model 
-    * Inference
-    * Clause
-    * Disjunction/Conjuction 
-    * Universal/Existential Quantification
-2) Propositional Logic is constructed with Propositional Symbols and Logical Connectives
-    * Propositional Symbols: Letters(P,Q,R....)
-    * Logical Connectives:  NOT(), AND(), OR(), Implication(), Biconditional()
-3) Model Checking 
+### 1) Terminology in Knowledge problems, 
+* Sentence
+* Propositional Logic 
+* Knowledge Base
+* Model 
+* Inference
+* Clause
+* Disjunction/Conjuction 
+* Universal/Existential Quantification
+### 2) Propositional Logic is constructed with Propositional Symbols and Logical Connectives
+* Propositional Symbols: Letters(P,Q,R....)
+* Logical Connectives:  NOT(), AND(), OR(), Implication(), Biconditional()
+### 3) Model Checking 
 <br> methodically explores and verifies all possibilities to check whether a given proposition is true, given our knowledge base. 
 
-4) Inference Rules
+### 4) Inference Rules
 
 | Inference Rule                | Mathematical Expression | Description |
 |-------------------------------|-------------------------|-------------|
@@ -33,14 +33,14 @@
 
 
 
-5) The final step involves converting the KnowledgeBase into its Conjunctive Normal Form (CNF) to facilitate simpler inferences.
+#### The final step involves converting the KnowledgeBase into its Conjunctive Normal Form (CNF) to facilitate simpler inferences.
 
-    This step is essential for determining if the KnowledgeBase entails a certain proposition 'A'. To do this, we need to check if the combination of the KnowledgeBase and the negation of 'A' (represented as KB ⊨ ~A) leads to an empty clause. The occurrence of an empty clause indicates that 'A' is indeed entailed by the KnowledgeBase.
+This step is essential for determining if the KnowledgeBase entails a certain proposition 'A'. To do this, we need to check if the combination of the KnowledgeBase and the negation of 'A' (represented as KB ⊨ ~A) leads to an empty clause. The occurrence of an empty clause indicates that 'A' is indeed entailed by the KnowledgeBase.
 
 
-6) First Order Logic
+### 6) First Order Logic
 <br> Uses 2 types of symbols for succint knowledge expression as opposed to Propositional Logic which may get too verbose. 
-    * Constant Symbols
-    <br>&nbsp;&nbsp;&nbsp;&nbsp; Represent Objects: ex, Human, Dog, Company
-    * Predicate Symbols 
-    <br>&nbsp;&nbsp;&nbsp;&nbsp; Represent Relations/Functions: ex, BelongsTo(Human, Company)
+* Constant Symbols
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Represent Objects: ex, Human, Dog, Company
+* Predicate Symbols 
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Represent Relations/Functions: ex, BelongsTo(Human, Company)
