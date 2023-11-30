@@ -16,5 +16,5 @@ The idea behind the course is to Start from the classical AI and slowly progress
 | GPT From Scratch | 7  | [GPT FROM SCRATCH](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=69s) |
 
 
-## Course Outcomes
+## Course Outcomes 
 
