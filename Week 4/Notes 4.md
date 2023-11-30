@@ -29,8 +29,7 @@ h(x) = \begin{cases}
 $$
 
 with each new data, the weights get adjusted accordingly: 
-<br>$ w_i = w_i + \alpha (y - h_w(x)) x_i
- $
+<br>$$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 
 
 * Regression 
@@ -62,7 +61,7 @@ In reinforcement learning, Exploration vs Exploitation, Both are often necessary
     <br> $ L(\text{actual}, \text{predicted}) = | \text{actual} - \text{predicted} | $
     <br> Square Loss: $ L(\text{actual}, \text{predicted}) = (\text{actual} - \text{predicted})^2
  $  <- penalizes outlies more harshly 
- 
+
     * OverFitting:  if training data is too specific and the model is overtrained, issues with generalizations rise up, this is why we apply Regularization. 
         * Regularization: penalizes more complex hypothesises to avoid overfitting. 
         <br>$ cost(h) = loss(h) + γComplexity(h) $
