@@ -8,7 +8,7 @@ As shown in the diagram above, we will be discussing 3 points about Neural Netwo
 
 Neural Network: Mathematical Model that learns a function for mapping Inputs and Outputs
 
-### 1) Structural Aspects
+### 1) Training And Optimization
 * Activation Functions 
 
 | Function | Mathematical Expression | Advantages    | Disadvantages       |
