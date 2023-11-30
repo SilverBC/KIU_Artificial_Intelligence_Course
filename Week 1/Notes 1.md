@@ -1,5 +1,5 @@
 ## This week covers Knowledge Based Inferences and Machine Logic 
-### 1) Terminology in Knowledge problems, 
+### 1) Terminology in Knowledge problems 
 * Sentence
 * Propositional Logic 
 * Knowledge Base
@@ -8,7 +8,8 @@
 * Clause
 * Disjunction/Conjuction 
 * Universal/Existential Quantification
-### 2) Propositional Logic is constructed with Propositional Symbols and Logical Connectives
+### 2) Propositional Logic 
+#### constructed with Propositional Symbols and Logical Connectives
 * Propositional Symbols: Letters(P,Q,R....)
 * Logical Connectives:  NOT(), AND(), OR(), Implication(), Biconditional()
 ### 3) Model Checking 
@@ -29,7 +30,6 @@
 |                               | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $`\begin{array}{c} \alpha \lor (\beta \land \gamma) \\ \hline (\alpha \lor \beta) \land (\alpha \lor \gamma) \end{array} `$ | 'Or' distributes over 'And'. |
 | Resolution                    | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $`\begin{array}{c} P \lor Q \\ \neg P \\ \hline Q \end{array} `$ | If one of two propositions in an Or proposition is false, the other must be true. |
 |                               | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $`\begin{array}{c} P \lor Q \\ \neg P \lor R \\ \hline Q \lor R \end{array} `$ | Resolution can be applied to deduce a new Or proposition when one part of the initial Or proposition is negated. |
-
 
 
 
