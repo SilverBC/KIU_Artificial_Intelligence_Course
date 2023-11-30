@@ -44,28 +44,27 @@ $$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 Uses markov decision process to map out some $ actions(s) $ in a statespace based on final rewards. The ultimate goal being finding a strategy for choosing actions that maximize reward. One of the ways this can be achieved is through Q learning algorithm.
 when action taken: 
 * Estimates $` Q(s, a) `$ based on current and expected rewards 
-* Updated $ Q(s, a) $ taking in account both old and new estimations
-<br> $ Q(s,a) = Q(s,a) + α(new value estimate - Q(s,a)) $ 
+* Updated $` Q(s, a) `$ taking in account both old and new estimations
+<br> $` Q(s,a) = Q(s,a) + α(new value estimate - Q(s,a)) `$ 
 or
-<br> $ Q(s,a) = Q(s,a) + α((r - γmax_αQ(s',a')) - Q(s,a)) $ 
+<br> $` Q(s,a) = Q(s,a) + α((r - γmax_αQ(s',a')) - Q(s,a)) `$ 
 where α = weight of new esimate
       γ = weight of new reward estimate
 
 In reinforcement learning, Exploration vs Exploitation, Both are often necessary but proportions are case specific. 
 * Greedy Decision-Making: always exploits, never explores. 
 * Random Exploration: always explores, never exploits. 
-* Epsilon-Greedy Exploration: with a certain probability $  ε $ , the agent selects a random action, and with probability $ (1 - ε) $, it chooses the best-known action based on Q-values.
+* Epsilon-Greedy Exploration: with a certain probability $` ε `$ , the agent selects a random action, and with probability $` (1 - ε) `$, it chooses the best-known action based on Q-values.
 
 
 ### 4) Optimizations: 
 * Loss Functions:  Quantifying utility loss, larger loss = less accuracy
-    <br> $ L(\text{actual}, \text{predicted}) = | \text{actual} - \text{predicted} | $
-    <br> Square Loss: $ L(\text{actual}, \text{predicted}) = (\text{actual} - \text{predicted})^2
- $  <- penalizes outlies more harshly 
+    <br> $` L(\text{actual}, \text{predicted}) = | \text{actual} - \text{predicted} | `$
+    <br> Square Loss: $` L(\text{actual}, \text{predicted}) = (\text{actual} - \text{predicted})^2 `$  &nbsp;&nbsp;&nbsp;&nbsp;<- penalizes outlies more harshly 
 
 * OverFitting:  if training data is too specific and the model is overtrained, issues with generalizations rise up, this is why we apply Regularization. 
     * Regularization: penalizes more complex hypothesises to avoid overfitting. 
-    <br>$ cost(h) = loss(h) + γComplexity(h) $
+    <br>$` cost(h) = loss(h) + γComplexity(h) `$
     <br>where,  γ = how harshly complexity is penalized. 
 
 
