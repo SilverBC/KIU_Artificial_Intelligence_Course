@@ -9,7 +9,7 @@ Additionally, we may use Support Vector Machines (SVM)-s, to bring in additional
 <br>gives instruction to the algorithm to create a boundary in such a way that it keeps most distance between $n$ groups within the training set. 
 
 
-1) Supervised Learning
+### Supervised Learning
 * Classification
     <br>Some example Approaches are: 
 
@@ -36,11 +36,11 @@ $$ w_i = w_i + \alpha (y - h_w(x)) x_i $$
 * Regression 
 <br> Unlike classification tasks where inputs are mapped to discrete values, regression maps inputs to some continous values. 
 
-2) Unsupervised learning: 
-    * Clustering: 
+### Unsupervised learning: 
+* Clustering: 
 <br> without any labels, groups data by some patterns discovered within the training set. 
 
-3) Reinforcement Learning 
+### Reinforcement Learning 
 Uses markov decision process to map out some $ actions(s) $ in a statespace based on final rewards. The ultimate goal being finding a strategy for choosing actions that maximize reward. One of the ways this can be achieved is through Q learning algorithm.
 when action taken: 
 * Estimates $ Q(s, a) $ based on current and expected rewards 
@@ -57,16 +57,16 @@ In reinforcement learning, Exploration vs Exploitation, Both are often necessary
 * Epsilon-Greedy Exploration: with a certain probability $  ε $ , the agent selects a random action, and with probability $ (1 - ε) $, it chooses the best-known action based on Q-values.
 
 
-4) Optimizations: 
-    * Loss Functions:  Quantifying utility loss, larger loss = less accuracy
+### Optimizations: 
+* Loss Functions:  Quantifying utility loss, larger loss = less accuracy
     <br> $ L(\text{actual}, \text{predicted}) = | \text{actual} - \text{predicted} | $
     <br> Square Loss: $ L(\text{actual}, \text{predicted}) = (\text{actual} - \text{predicted})^2
  $  <- penalizes outlies more harshly 
 
-    * OverFitting:  if training data is too specific and the model is overtrained, issues with generalizations rise up, this is why we apply Regularization. 
-        * Regularization: penalizes more complex hypothesises to avoid overfitting. 
-        <br>$ cost(h) = loss(h) + γComplexity(h) $
-        <br>where,  γ = how harshly complexity is penalized. 
+* OverFitting:  if training data is too specific and the model is overtrained, issues with generalizations rise up, this is why we apply Regularization. 
+    * Regularization: penalizes more complex hypothesises to avoid overfitting. 
+    <br>$ cost(h) = loss(h) + γComplexity(h) $
+    <br>where,  γ = how harshly complexity is penalized. 
 
 
 
