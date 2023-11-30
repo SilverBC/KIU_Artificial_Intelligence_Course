@@ -13,8 +13,8 @@ Neural Network: Mathematical Model that learns a function for mapping Inputs and
 
 | Function | Mathematical Expression | Advantages    | Disadvantages       |
 |----------|-------------------------|---------------|---------------------|
-| Step     | $`f(x) = \begin{cases} 1 & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Simple | Not Differentiable  |
-| Sigmoid  | $`f(x) = \frac{1}{1 + e^{-x}}`$ | Differentiable | Vanishing Gradient |
-| ReLu     | $`f(x) = \begin{cases} x & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Faster | Dying ReLu |
+| Step     | $`f(x) = \begin{cases} 1 & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Simple, Provides clear binary output | Not Differentiable  |
+| Sigmoid  | $`f(x) = \frac{1}{1 + e^{-x}}`$ | Differentiable, useful in probailities | Vanishing Gradient: gradients can get really small, slowing down training |
+| ReLu     | $`f(x) = \begin{cases} x & \text{if } x \geq 0 \\ 0 & \text{otherwise} \end{cases}`$ | Faster, Mitigates Vanishing Gradient | Dying ReLu: some neurons may stop contributing |
 
 
