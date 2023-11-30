@@ -48,8 +48,8 @@ when action taken:
 <br> $` Q(s,a) = Q(s,a) + α(new value estimate - Q(s,a)) `$ 
 <br>or
 <br> $` Q(s,a) = Q(s,a) + α((r - γmax_αQ(s',a')) - Q(s,a)) `$ 
-where α = weight of new esimate
-      γ = weight of new reward estimate
+<br>where α = weight of new esimate
+    <br>and γ = weight of new reward estimate
 
 In reinforcement learning, Exploration vs Exploitation, Both are often necessary but proportions are case specific. 
 * Greedy Decision-Making: always exploits, never explores. 
