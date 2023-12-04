@@ -44,7 +44,7 @@ Neural Network: Mathematical Model that learns a function for mapping Inputs and
     * Several of the above mentioned images, can be chained depending on the specific case. 
 
 * Reccurent Neural Networks 
-<br> Reccurent Neural Networks are neccessary for tasks where the neural network needs to consider present states on top the previous output. Similar concept is used in Electrical Engineering with Feedback circuits. 
+<br> Reccurent Neural Networks are neccessary for tasks where the neural network needs to consider present states on top the previous output. Similar concept is used in Electrical Engineering with Feedback circuits.
 
 ### 3) Practical implementations and Considerations 
 * overfitting 
