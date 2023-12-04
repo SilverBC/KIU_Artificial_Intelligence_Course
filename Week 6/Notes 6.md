@@ -20,11 +20,11 @@ Abstracting sentence meaning in favor of representing it as it's formal Grammar 
     ↙︎   ↘︎
    NP    VP
    ↓     ↙︎ ↘︎
-   N    V   NP
-   ↓    ↓  / ↘︎
-  she  saw D   N
-           ↓   ↓
-          the city
+   N    V    NP
+   |    |    ↙︎ ↘︎
+   |    |    D   N
+   ↓    ↓    ↓    ↓ 
+  she  saw  the  city
 ```
 
 
