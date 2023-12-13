@@ -1,5 +1,6 @@
 # KIU_Artificial_Intelligence_Course
 Authors: Giorgi Mzhavanadze & Tornike Maridashvili
+
 Senior Year Computer Science Course For Artificial Intelligence at [KIU](https://www.kiu.edu.ge/).
 
 The idea behind the course is to Start from the classical AI and slowly progress to more modern implementations of AI in modern software, such as GPT models.
