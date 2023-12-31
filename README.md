@@ -27,7 +27,7 @@ The idea behind the course is to Start from the classical AI and slowly progress
 | Makemore Part 5: WaveNet | 12 | This week introduces WaveNet, a deep neural network for generating audio. Students will explore its architecture and learn how it's used for tasks like speech synthesis, contributing to their understanding of diverse AI applications. |
 | Building GPT | 13 | The week is dedicated to building a GPT model from scratch. It involves a hands-on approach to understanding the architecture, training process, and applications of GPT models in natural language processing. |
 | Future of ML and Final Project | 14 | This week aims to prepare students for independent research within the field, beginning with key research papers that have shaped the field. It then explores pioneering companies in machine learning, illustrating real-world applications. One of the examples discussed, is an introduction to the MAMBA model, discussing its role in addressing Transformer architecture limitations and its future AI impact. This session aims to enrich students' understanding of machine learning's current landscape and emerging trends. At the end of the lecture, Students will be given guidelines, in order to begin work on their final projects in small groups. |
-| Final Project, cont. | 15 | | This week will be dedicated to refining final projects |
+| Final Project, cont. | 15 | This week will be dedicated to refining the, final projects. Presentations of which be on the final exam date |
 
 
 ## Course Outcomes 
