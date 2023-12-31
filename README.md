@@ -1,4 +1,5 @@
 # KIU_Artificial_Intelligence_Course
+Authors: Giorgi Mzhavanadze & Tornike Maridashvili
 
 Senior Year Computer Science Course For Artificial Intelligence at [KIU](https://www.kiu.edu.ge/).
 
