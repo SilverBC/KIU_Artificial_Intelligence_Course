@@ -4,8 +4,11 @@ Authors: Giorgi Mzhavanadze & Tornike Maridashvili
 Senior Year Computer Science Course For Artificial Intelligence at [KIU](https://www.kiu.edu.ge/).
 
 Concept Tests: 15% (1-2% each)
+
 Homeworks: 30% (2% each)
+
 midterm: 25% 
+
 Final Projects: 30%
 
 The idea behind the course is to Start from the classical AI and slowly progress to more modern implementations of AI in modern software, such as GPT models.
