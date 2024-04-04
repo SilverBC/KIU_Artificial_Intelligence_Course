@@ -11,8 +11,8 @@ Syntax and Semantics:
 Text Processing Techniques: 
 
 ### 1) Syntax and Semantics 
-#### (1) Context-Free Grammar
-Abstracting sentence meaning in favor of representing it as it's formal Grammar Structure, for sentence "She saw the city" would be for example:
+#### (1) Context-Free Gramma
+Context-free grammars are studied in fields of theoretical computer science, compiler design, and linguistics. In the context of Natural language processing, it helps by Abstracting sentence meaning in favor of representing it as it's formal Grammar Structure, for sentence "She saw the city" would be for example:
 
 ```ascii
       S
@@ -26,6 +26,16 @@ Abstracting sentence meaning in favor of representing it as it's formal Grammar 
    ↓    ↓    ↓    ↓ 
   she  saw  the  city
 ```
+
+where 
+* S (Sentence): The root of the tree, representing the entire sentence. It's broken down into two main components: a noun phrase (NP) and a verb phrase (VP).
+* NP (Noun Phrase): A phrase that can function as the subject or object of a verb. In this sentence, there are two instances of NP:
+      * The first NP serves as the subject of the sentence, which is "she".
+      * The second NP serves as the object of the verb phrase, which is "the city".
+* VP (Verb Phrase): A phrase that contains the verb and the object of the sentence. It's composed of a verb (V) and a noun phrase (NP) that serves as the object.
+* N (Noun): Refers to a person, place, thing, or idea. In this sentence, "she" is categorized as a pronoun but functions as the noun in the subject position, and "city" is the noun in the object position.
+* V (Verb): The action word of the sentence, which in this case is "saw". It indicates the action performed by the subject.
+* D (Determiner): A word that introduces a noun, specifying it further. "The" is the determiner in this sentence, used before "city" to specify which city is being talked about.
 
 #### (2) Word Representation
 Dealing with how words can be numerically represented: 
