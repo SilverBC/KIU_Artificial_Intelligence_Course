@@ -1,3 +1,14 @@
+##### Before Getting Deep into Math, here are some useful Resources: 
+
+#### Visualizations: 
+* Surface level visualization of backpropagation in action: https://www.youtube.com/watch?v=Ilg3gGewQ5U
+* Continuation of the video above, going a bit deeper on math: https://www.youtube.com/watch?v=tIeHLnjs5U8
+
+##### Articles: 
+* building Neural Networks from 0: https://victorzhou.com/blog/intro-to-neural-networks/
+
+
+
 <h3 align="center">Network Training</h3>
 
 - **How to determine the network parameters**?
