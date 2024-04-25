@@ -13,10 +13,10 @@
 
 - **How to determine the network parameters**?
 
-  Same as for polynomial curve fitting: **minimize a sum-of-squares error function**.
+  Same as for polynomial curve fitting in linear regression: **minimize a sum-of-squares error function**.
 
 
-- Lets given a training set comprising a set of **input vectors** $\{\mathbf{x}_n\}$, where $n = 1, ..., N$, together with a corresponding set of **target vectors** $t_n$ we **minimize the error function**:
+- Lets given a training set comprising a set of **input vectors** $\{\mathbf{x}_n\}$, where $n = 1, ..., N$, and **weights vector** $\{\mathbf{w}\}$together with a corresponding set of **target vectors** $t_n$ we **minimize the error function**:
 
   $$E_{\mathbf{w}} = \frac{1}{2} \sum_{n=1}^{N} || y(\mathbf{x}_n, \mathbf{w}) - t_n||^2.$$
   
