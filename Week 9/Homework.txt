@@ -1,0 +1,2 @@
+1) Tune the hyperparameters of the training to beat validation loss of 2.1 on Y test. 
+
