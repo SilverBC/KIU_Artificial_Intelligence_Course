@@ -1,0 +1,1 @@
+1) use torch.nn Module instead of custom classes in order to write the same model that was written in the lecture
